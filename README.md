@@ -1,6 +1,16 @@
 GitClass-HelloGit-
 ---
 
+Comando específico
+
+```sh
+$ git help add
+$ git help commit
+$ git help <qualquer_comando_git>
+```
+
+
+
 Começando a usar o Git e GitHub
 
 - Iniciando um repositório:
