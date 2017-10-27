@@ -9,8 +9,6 @@ $ git help commit
 $ git help <qualquer_comando_git>
 ```
 
-
-
 Começando a usar o Git e GitHub
 
 - Iniciando um repositório:
@@ -28,6 +26,12 @@ $ git status
 $ git add <arquivo>
 ```
 
+Adicionar todos os arquivos/diretórios
+
+```sh
+$ git add .
+```
+
 - Fazendo um commit:
 ```sh
 $ git commit -m "Mensagem explicando"
@@ -41,4 +45,10 @@ $ git push -u origin master
 - Como voltar atrás:
 ```sh
 $ git pull origin master
+```
+
+Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+
+```sh
+$ git add -f arquivo_no_gitignore.txt
 ```
