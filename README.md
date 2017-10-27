@@ -37,6 +37,12 @@ $ git add .
 $ git commit -m "Mensagem explicando"
 ```
 
+Comitar vários arquivos
+
+```sh
+$ git commit meu_arquivo.txt meu_outro_arquivo.txt
+```
+
 - Mandando para o GitHub:
 ```sh
 $ git push -u origin master
