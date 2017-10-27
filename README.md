@@ -46,3 +46,9 @@ $ git push -u origin master
 ```sh
 $ git pull origin master
 ```
+
+Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
+
+```sh
+$ git add -f arquivo_no_gitignore.txt
+```
