@@ -9,8 +9,6 @@ $ git help commit
 $ git help <qualquer_comando_git>
 ```
 
-
-
 Começando a usar o Git e GitHub
 
 - Iniciando um repositório:
@@ -26,6 +24,12 @@ $ git status
 - Adicionando arquivos:
 ```sh
 $ git add <arquivo>
+```
+
+Adicionar todos os arquivos/diretórios
+
+```sh
+$ git add .
 ```
 
 - Fazendo um commit:
